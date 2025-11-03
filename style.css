@@ -21,6 +21,7 @@ h1 {
 nav {
   display: flex;
   justify-content: flex-end;
+  background-color:white;
 }
 
 .navbar-toggler {
