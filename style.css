@@ -25,7 +25,8 @@ a {
 }
 
 .navbar .nav-link {
-  text-decoration: underline;
+  text-decoration: underline !important;
+  color: inherit;
 }
 
 .jumbotron {
