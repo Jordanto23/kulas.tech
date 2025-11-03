@@ -24,7 +24,7 @@ a {
   margin: 0;
 }
 
-.nav-link {
+.navbar .nav-link {
   text-decoration: underline;
 }
 
