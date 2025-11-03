@@ -24,7 +24,7 @@ a {
   margin: 0;
 }
 
-.navbar .nav-link {
+.nav-link {
   text-decoration: underline !important;
   color: inherit;
 }
