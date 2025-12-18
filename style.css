@@ -4,7 +4,7 @@
   --color-blue: #2a70e0;
 }
 
-dark-mode {
+.dark-mode {
   --color-white: #121212;
   --color-black: #e0e0e0;
   --color-blue: #4a90e2;
@@ -15,6 +15,7 @@ body {
   background-image: url('#');
   margin: 0;
   padding-top: 0px;
+  background-color: var(--color-white);
 }
 
 header .row,
@@ -127,6 +128,7 @@ footer {
   font-size: 12px;
   padding: 0px 0;
   margin: 0%;
+  color: var(--color-black);
 }
 
 
