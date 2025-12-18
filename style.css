@@ -1,3 +1,15 @@
+:root {
+  --color-white: white;
+  --color-black: black;
+  --color-blue: #2a70e0;
+}
+
+dark-mode {
+  --color-white: #121212;
+  --color-black: #e0e0e0;
+  --color-blue: #4a90e2;
+}
+
 body {
   font-family: Roboto, sans-serif;
   background-image: url('#');
@@ -15,17 +27,17 @@ h1 {
   font-weight: 700;
   margin: 0;
   white-space: nowrap;
-  color: black;
+  color:var(--color-black);
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
-  background-color: white;
+  background-color: var(--color-white);
 }
 
 .navbar-toggler {
-  border: 1px solid black;
+  border: 1px solid var(--color-black);
   /* optional: removes the border */
 }
 
@@ -41,7 +53,7 @@ a {
 
 .nav-link {
   text-decoration: underline !important;
-  color: black;
+  color: var(--color-black);
 }
 
 section {
@@ -53,7 +65,7 @@ section {
   align-items: center;
   background-image: url('https://plus.unsplash.com/premium_photo-1697729926633-1d9048a2d60a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070');
   background-size: cover;
-  color: #ffffff;
+  color: var(--color-white);
   height: 400px;
   margin: 0;
 }
@@ -62,12 +74,12 @@ section {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: white;
+  color: var(--color-white);
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff;
+  color: var(--color-white);
 }
 
 section .row img {
@@ -82,18 +94,18 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
-  background-color: #ffffff;
+  color: var(--color-white);
+  background-color: var(--color-black);
 }
 
 .btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
+  color: var(--color-black);
+  background-color: var(--color-white);
 }
 
 .btn-secondary {
-  background-color: #2a70e0;
-  color: #ffffff;
+  background-color: var(--color-blue);
+  color: var(--color-white);
   margin: 0 0 30px;
 }
 
@@ -129,5 +141,5 @@ footer ul {
 
 footer a {
   text-decoration: underline !important;
-  color: black;
+  color: var(--color-black);
 }
